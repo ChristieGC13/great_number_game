@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Slabo+27px&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgb(239, 167, 167);
+    padding: 20px;
+    margin: 30px;
+    width: 700px;
+    min-height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center ;
+    box-shadow: 5px 10px #E2C2FF;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+    font-family: 'Slabo 27px', serif;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    font-size:large;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(37,142,166);
+    color:seashell;
+    font-size: larger;
+}
+
+.result {
+    padding: 20px;
+    margin: 30px;
+    max-width: 700px;
+    border-radius: 20px;
+    align-items: center ;
+    box-shadow: 5px 10px #E2C2FF;
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    margin-top: 10px;
+    color: #E2C2FF;
+    text-decoration: none;
+}
+
+.green {
+    background-color: #4CB944;
+}
+
+.red {
+    background-color: #D11149;
+}
